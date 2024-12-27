@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node 20",
+  "_version": "20.1.0",
+
+  "compilerOptions": {
+    "lib": ["es2023"], // Supports ECMAScript 2023 library features
+    "module": "commonjs", // CommonJS is more commonly used with Node.js
+    "target": "es2022", // ECMAScript 2022 target
+    "outDir": "./dist", // Output directory for compiled files
+    "rootDir": "./src", // Root directory for source files
+
+    "strict": true, // Enforce strict type checking
+    "esModuleInterop": true, // Enable interop with CommonJS modules
+    "skipLibCheck": true, // Skip checking .d.ts files for faster builds
+    "moduleResolution": "node" // Resolve modules in Node.js style
+  },
+  "include": ["src"], // Include source files
+  "exclude": ["node_modules", "dist"] // Exclude node_modules and output directory
+}
