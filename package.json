@@ -1,0 +1,19 @@
+{
+  "name": "restorant-order-system",
+  "version": "1.0.0",
+  "description": "A restaurant order management system (OMS) is a digital tool that streamlines these processes. It serves as a central hub for selling food online, handling orders from various channels, and seamlessly integrating into restaurant operations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rakeshd998/Restaurant-Order-System.git"
+  },
+  "author": "Rakesh_Devadiga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rakeshd998/Restaurant-Order-System/issues"
+  },
+  "homepage": "https://github.com/Rakeshd998/Restaurant-Order-System#readme"
+}
